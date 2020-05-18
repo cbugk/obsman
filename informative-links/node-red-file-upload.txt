@@ -1,0 +1,3 @@
+https://stackoverflow.com/questions/40390822/in-node-red-how-do-i-upload-to-a-node-with-the-given-configuration-and-retrieve
+
+https://gist.github.com/natcl/4d8dd65a0304ea62594d39768becfed9 (Used this flow as base)

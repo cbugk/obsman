@@ -1,0 +1,1 @@
+https://www.slideshare.net/billkarwin/sql-antipatterns-strike-back/124-NULL_Antipatterns_SQL_supports_IS

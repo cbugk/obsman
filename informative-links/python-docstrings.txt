@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/10840357/string-literal-with-triple-quotes-in-function-definitions#10840410

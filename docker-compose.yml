@@ -1,0 +1,21 @@
+version: "3.3"
+services:
+  obsman:
+    build:
+      dockerfile: ./Dockerfile
+      context: ./
+    ports:
+      - "443:1880"
+    restart: always
+    user: root
+    volumes:
+      - ./obsman:/obsman
+      - ./node-red-config/:/data/
+    # making sure permissions are satisfied, might be unnecessary
+    command: chown -R node-red:node-red /obsman
+    command: chown -R node-red:node-red /data
+    command: su node-red
+    command: node $NODE_OPTIONS node_modules/node-red/red.js -v $FLOWS "--userDir" "/data"
+    # production build, disable below (lets open terminal from container)
+    stdin_open: true
+    tty: true

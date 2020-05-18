@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/9902394/how-to-get-last-record-from-sqlite

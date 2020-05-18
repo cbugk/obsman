@@ -1,0 +1,5 @@
+https://stackoverflow.com/questions/49562241/how-to-use-pythons-logging-to-log-to-the-screen-and-to-a-file?noredirect=1
+
+https://stackoverflow.com/questions/13733552/logger-configuration-to-log-to-file-and-print-to-stdout
+
+https://verboselogs.readthedocs.io/en/latest/readme.html  # a package to import

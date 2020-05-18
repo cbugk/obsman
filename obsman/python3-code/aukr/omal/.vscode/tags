@@ -1,0 +1,116 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ARCH_DIR	../filesys/filesys.py	/^ARCH_DIR  = args.archdir$/;"	kind:variable	line:11
+BIAS_DIR	../const/const.py	/^BIAS_DIR  = 'Bias'$/;"	kind:variable	line:32
+DARK_DIR	../const/const.py	/^DARK_DIR  = 'Dark'$/;"	kind:variable	line:33
+FLAT_DIR	../const/const.py	/^FLAT_DIR  = 'Flat'$/;"	kind:variable	line:34
+FitsFile	../fitsfile/fitsfile.py	/^class FitsFile:$/;"	kind:class	line:21
+HDR_KEYS	../const/const.py	/^HDR_KEYS = [$/;"	kind:variable	line:48
+MAX_CONTROL_ITEM	../const/const.py	/^MAX_CONTROL_ITEM    = 32 # items reserved for BIAS_DIR, DARK_DIR, FLAT_DIR each$/;"	kind:variable	line:39
+MAX_DAYS_APART_LIMIT	../const/const.py	/^MAX_DAYS_APART_LIMIT = 2 # Obsv can include normalization-data from n-days apart$/;"	kind:variable	line:19
+MAX_ITEM_PER_DAY	../const/const.py	/^MAX_ITEM_PER_DAY    = (MAX_ITEM_PER_OBSV * MAX_OBSV_PER_DAY)$/;"	kind:variable	line:26
+MAX_ITEM_PER_OBSV	../const/const.py	/^MAX_ITEM_PER_OBSV   = 256$/;"	kind:variable	line:24
+MAX_OBJCT_ITEM	../const/const.py	/^MAX_OBJCT_ITEM      = 64 # items reserved for OBJCT_DIR$/;"	kind:variable	line:40
+MAX_OBSV_PER_DAY	../const/const.py	/^MAX_OBSV_PER_DAY    = 4$/;"	kind:variable	line:25
+MAX_OTHER_ITEM	../const/const.py	/^MAX_OTHER_ITEM      = 95 # items reserved for OTHER_DIR$/;"	kind:variable	line:41
+OBJCT_DIR	../const/const.py	/^OBJCT_DIR = 'Object'$/;"	kind:variable	line:35
+OBS_ALT	../const/const.py	/^OBS_ALT = 1256.69   # Altitude of AUKR Observatory$/;"	kind:variable	line:17
+OTHER_DIR	../const/const.py	/^OTHER_DIR = 'Other'$/;"	kind:variable	line:36
+ObservatoryDB	../sqlitedb/sqlitedb.py	/^class ObservatoryDB:$/;"	kind:class	line:21
+Obsv	../obsv/obsv.py	/^class Obsv:$/;"	kind:class	line:14
+REF_LENGTH	../const/const.py	/^REF_LENGTH          = 6    # between 0x000000 and 0xffffff$/;"	kind:variable	line:23
+TABLE_FITS	../const/const.py	/^TABLE_FITS = 'fits'$/;"	kind:variable	line:45
+TABLE_OBSV	../const/const.py	/^TABLE_OBSV = 'obsv'$/;"	kind:variable	line:44
+TMP_DIR	../filesys/filesys.py	/^TMP_DIR   = f'{ARCH_DIR}\/tmp'$/;"	kind:variable	line:12
+YEAR_2K	../const/const.py	/^YEAR_2K             = 2000 # calendar start, easier hash->'date' conversion$/;"	kind:variable	line:22
+__init__	../fitsfile/fitsfile.py	/^    def __init__(self, path, mode='readonly'):$/;"	kind:member	line:38
+__init__	../obsv/obsv.py	/^    def __init__(self, path, mode='readonly'):$/;"	kind:member	line:31
+__init__	../sqlitedb/sqlitedb.py	/^    def __init__(self, dbfile, obsvTable, fitsTable):$/;"	kind:member	line:27
+__init__.py	../__init__.py	1;"	kind:file	line:1
+__init__.py	../args/__init__.py	1;"	kind:file	line:1
+__init__.py	../calc/__init__.py	1;"	kind:file	line:1
+__init__.py	../const/__init__.py	1;"	kind:file	line:1
+__init__.py	../filesys/__init__.py	1;"	kind:file	line:1
+__init__.py	../fitsfile/__init__.py	1;"	kind:file	line:1
+__init__.py	../interface/__init__.py	1;"	kind:file	line:1
+__init__.py	../obsv/__init__.py	1;"	kind:file	line:1
+__init__.py	../print/__init__.py	1;"	kind:file	line:1
+__init__.py	../sqlitedb/__init__.py	1;"	kind:file	line:1
+archiveDB	../sqlitedb/sqlitedb.py	/^archiveDB  = ObservatoryDB(args.dbfile, TABLE_OBSV, TABLE_FITS)$/;"	kind:variable	line:215
+areWithinRange	../calc/calc.py	/^def areWithinRange(date1, date2, range):$/;"	kind:function	line:26
+args	../args/args.py	/^args = getArgs()$/;"	kind:variable	line:49
+args.py	../args/args.py	1;"	kind:file	line:1
+calc.py	../calc/calc.py	1;"	kind:file	line:1
+cleanTmp	../filesys/filesys.py	/^def cleanTmp():$/;"	kind:function	line:41
+cleanup	../interface/interface.py	/^def cleanup():$/;"	kind:function	line:10
+conn	../sqlitedb/sqlitedb.py	/^    conn        = None$/;"	kind:variable	line:22
+const.py	../const/const.py	1;"	kind:file	line:1
+copyToTmp	../filesys/filesys.py	/^def copyToTmp(dirList):$/;"	kind:function	line:18
+createFitsTable	../sqlitedb/sqlitedb.py	/^    def createFitsTable(self): #returns boolean$/;"	kind:member	line:125
+createObsvTable	../sqlitedb/sqlitedb.py	/^    def createObsvTable(self):$/;"	kind:member	line:105
+cursor	../sqlitedb/sqlitedb.py	/^    cursor      = None$/;"	kind:variable	line:23
+date	../fitsfile/fitsfile.py	/^    date = None # from header, inserted at obsv event (parsed as "YYYY-MM-DD")$/;"	kind:variable	line:32
+date	../obsv/obsv.py	/^    date        = None    # from foldername inserted at observation event$/;"	kind:variable	line:25
+dateAndItem	../calc/calc.py	/^def dateAndItem(hash):$/;"	kind:function	line:66
+deleteObsv	../sqlitedb/sqlitedb.py	/^    def deleteObsv(self, obsv):$/;"	kind:member	line:199
+filesys.py	../filesys/filesys.py	1;"	kind:file	line:1
+fitsHeader	../print/print.py	/^def fitsHeader(hdul): # hudl = astropy.io.fits.open(filePath, mode='readonly')$/;"	kind:function	line:1
+fitsTable	../sqlitedb/sqlitedb.py	/^    fitsTable   = None$/;"	kind:variable	line:25
+fitsTree	../obsv/obsv.py	/^    fitsTree    = []      # from filesystem, list of FitsFile objects$/;"	kind:variable	line:22
+fitsfile.py	../fitsfile/fitsfile.py	1;"	kind:file	line:1
+getArchObsvList	../interface/interface.py	/^def getArchObsvList(mode='readonly'):$/;"	kind:function	line:43
+getArgs	../args/args.py	/^def getArgs():$/;"	kind:function	line:8
+getFitsList	../obsv/obsv.py	/^    def getFitsList(self):$/;"	kind:member	line:92
+getTmpObsvList	../interface/interface.py	/^def getTmpObsvList(mode='readonly'):$/;"	kind:function	line:16
+hash	../calc/calc.py	/^def hash(ref):$/;"	kind:function	line:48
+hash	../fitsfile/fitsfile.py	/^    hash = None # parsed from AUKR-REF in header, or given by parent Obsv$/;"	kind:variable	line:33
+hash	../obsv/obsv.py	/^    hash         = None    # from foldername inserted at observation archiving$/;"	kind:variable	line:27
+hdr	../fitsfile/fitsfile.py	/^    hdr  = None # from hdul[0].header, Primary HDU's header, parse below params$/;"	kind:variable	line:31
+hdul	../fitsfile/fitsfile.py	/^    hdul = None # from fits.open(path, mode), HDUList, to flush() changes made$/;"	kind:variable	line:30
+insert	../obsv/obsv.py	/^    def insert(self):$/;"	kind:member	line:265
+insertFits	../sqlitedb/sqlitedb.py	/^    def insertFits(self, fitsFile):$/;"	kind:member	line:76
+insertObsv	../sqlitedb/sqlitedb.py	/^    def insertObsv(self, obsv):$/;"	kind:member	line:56
+interface.py	../interface/interface.py	1;"	kind:file	line:1
+isDate	../calc/calc.py	/^def isDate(date, format='%Y-%m-%d'):$/;"	kind:function	line:11
+isNew	../fitsfile/fitsfile.py	/^    isNew = None$/;"	kind:variable	line:26
+isNew	../obsv/obsv.py	/^    isNew       = None$/;"	kind:variable	line:18
+itemZeroHash	../calc/calc.py	/^def itemZeroHash(date):$/;"	kind:function	line:55
+logger	../calc/calc.py	/^logger  = getLogger(__name__)$/;"	kind:variable	line:9
+logger	../filesys/filesys.py	/^logger = getLogger(__name__)$/;"	kind:variable	line:15
+logger	../fitsfile/fitsfile.py	/^logger  = getLogger(__name__)$/;"	kind:variable	line:16
+logger	../interface/interface.py	/^logger = getLogger(__name__)$/;"	kind:variable	line:8
+logger	../obsv/obsv.py	/^logger  = getLogger(__name__)$/;"	kind:variable	line:12
+logger	../sqlitedb/sqlitedb.py	/^logger = getLogger(__name__)$/;"	kind:variable	line:10
+mode	../fitsfile/fitsfile.py	/^    mode = None # from constructor$/;"	kind:variable	line:27
+mode	../obsv/obsv.py	/^    mode        = None$/;"	kind:variable	line:19
+moveToArchive	../filesys/filesys.py	/^def moveToArchive(obsv):$/;"	kind:function	line:30
+name	../fitsfile/fitsfile.py	/^    name = None # from constructor, full name of file (.fit included)$/;"	kind:variable	line:29
+name	../obsv/obsv.py	/^    name        = None    # from constructor$/;"	kind:variable	line:21
+objct	../obsv/obsv.py	/^    objct       = None    # from fitsTree$/;"	kind:variable	line:24
+obsv.py	../obsv/obsv.py	1;"	kind:file	line:1
+obsvHash	../fitsfile/fitsfile.py	/^    obsvHash = None # calculated from ref$/;"	kind:variable	line:35
+obsvTable	../sqlitedb/sqlitedb.py	/^    obsvTable   = None$/;"	kind:variable	line:24
+parseDate	../fitsfile/fitsfile.py	/^    def parseDate(self):$/;"	kind:member	line:75
+parseDateRef	../obsv/obsv.py	/^    def parseDateRef(self):$/;"	kind:member	line:54
+parseFitsBranch	../obsv/obsv.py	/^    def parseFitsBranch(self, dirPath):$/;"	kind:member	line:191
+parseFitsTree	../obsv/obsv.py	/^    def parseFitsTree(self):$/;"	kind:member	line:100
+parseRef	../fitsfile/fitsfile.py	/^    def parseRef(self):$/;"	kind:member	line:90
+path	../fitsfile/fitsfile.py	/^    path = None # from constructor, made absolute$/;"	kind:variable	line:28
+path	../obsv/obsv.py	/^    path        = None    # from constructor$/;"	kind:variable	line:20
+print.py	../print/print.py	1;"	kind:file	line:1
+queryFits	../sqlitedb/sqlitedb.py	/^    def queryFits(self, hash, column):$/;"	kind:member	line:49
+queryObsv	../sqlitedb/sqlitedb.py	/^    def queryObsv(self, hash, column):$/;"	kind:member	line:42
+ref	../calc/calc.py	/^def ref(hash):$/;"	kind:function	line:41
+removeFromArch	../interface/interface.py	/^def removeFromArch(obsvList):$/;"	kind:function	line:55
+removeFromArchiveFolder	../filesys/filesys.py	/^def removeFromArchiveFolder(obsv):$/;"	kind:function	line:47
+sqlitedb.py	../sqlitedb/sqlitedb.py	1;"	kind:file	line:1
+tlscp	../obsv/obsv.py	/^    tlscp       = None    # from fitsTree$/;"	kind:variable	line:23
+tmpToArch	../interface/interface.py	/^def tmpToArch(tmpObsvList):$/;"	kind:function	line:29
+update	../fitsfile/fitsfile.py	/^    def update(self, newHash):$/;"	kind:member	line:109
+update	../obsv/obsv.py	/^    def update(self):$/;"	kind:member	line:242
+upgradeScript	../fitsfile/fitsfile.py	/^    def upgradeScript(self):$/;"	kind:member	line:151
+validDateAndItem	../calc/calc.py	/^def validDateAndItem(ref):$/;"	kind:function	line:81

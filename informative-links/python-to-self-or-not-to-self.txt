@@ -1,0 +1,5 @@
+https://stackoverflow.com/questions/1680528/how-to-avoid-having-class-data-shared-among-instances
+
+This little mistake took a whole day, because Obsv class was appending branches from all Obsv objects together.
+
+Unless otherwise specified, do not declare variables under __init__() method as self.memberVariable seklinde __init__()
