@@ -1,8 +1,8 @@
 OBSMAN
-Currently a single developer toy-project for archiving astronomical observation files (".fits"). Highly depends on Astropy, aims to provide a solution for a superclass of formats used in Turkey.
+Currently a single developer toy-project for archiving astronomical observation files (".fit"). Highly depends on Astropy, aims to provide a solution for a superclass of formats used in Turkey.
 
 TODO-HR:
-- contact 4 observatories within Turkey (ask for sample ".fits" files)
+- contact 4 observatories within Turkey (ask for sample ".fit" files)
 
 TODO-IT:
 - get rid of demonstration UI i.e. Node-RED
