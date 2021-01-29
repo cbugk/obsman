@@ -7,7 +7,7 @@
     "node-red-contrib-http-multipart": "~0.3.2",
     "node-red-contrib-https": "~1.0.0",
     "node-red-contrib-zip": "~1.0.0",
-    "node-red-dashboard": "~2.16.3",
+    "node-red-dashboard": "~2.26.2",
     "node-red-node-sqlite": "~0.3.7"
   }
 }
